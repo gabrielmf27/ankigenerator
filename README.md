@@ -8,9 +8,7 @@ Ele possui uma interface gráfica e funciona em sistemas Windows, macOS e linux 
 
 Siga os passos abaixo conforme o seu sistema:
 
-============================================================
-1. INSTALAR O PYTHON
-============================================================
+# INSTALAR O PYTHON
 
 WINDOWS:
 - Baixe em: https://www.python.org/downloads/windows/
@@ -22,9 +20,7 @@ MACOS:
 - Ou instale via Homebrew (caso saiba usar):
   brew install python
 
-============================================================
-2. INSTALAR OS PACOTES NECESSÁRIOS
-============================================================
+# INSTALAR OS PACOTES NECESSÁRIOS
 
 Abra o terminal:
 
@@ -38,9 +34,7 @@ Execute o seguinte comando:
 
 pip install pandas genanki odfpy
 
-============================================================
-3. EXECUTAR O PROGRAMA
-============================================================
+# EXECUTAR O PROGRAMA
 
 WINDOWS:
 - Clique duas vezes no arquivo "ankigenerator.bat"
@@ -53,34 +47,26 @@ MACOS:
 
 Observação: no macOS, pode ser necessário usar `python3` em vez de `python`.
 
-============================================================
-4. USO
-============================================================
+# USO
 
 - O programa abrirá uma janela gráfica.
 - Clique em "Selecionar Arquivo" para carregar um arquivo com perguntas e respostas.
 - Veja a visualização da tabela.
 - Clique em "Gerar Arquivo Anki (.apkg)" para salvar o baralho.
 
-============================================================
-5. FORMATOS SUPORTADOS
-============================================================
+# FORMATOS SUPORTADOS
 
 - CSV (valores separados por vírgula ou ponto e vírgula)
 - XLS / XLSX (Microsoft Excel)
 - ODS (LibreOffice ou Planilhas compatíveis)
 
-============================================================
-6. ESTRUTURA ESPERADA DA TABELA
-============================================================
+# ESTRUTURA ESPERADA DA TABELA
 
 - A primeira coluna deve conter as perguntas.
 - A segunda coluna deve conter as respostas.
 - Linhas extras ou vazias são ignoradas.
 
-============================================================
-7. IMPORTAR NO ANKI
-============================================================
+# IMPORTAR NO ANKI
 
 - O arquivo gerado será salvo com a extensão `.apkg`.
 - Abra o Anki e use a opção "Importar" para adicionar o baralho.
